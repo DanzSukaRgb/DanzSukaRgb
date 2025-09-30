@@ -6,10 +6,10 @@
 - 📚 Selalu belajar hal baru.
 
 ## Statistik GitHub
-![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=radical)
+![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=DanzSukaRgb&show_icons=true&theme=radical)
 
 ## Bahasa Teratas
-![Bahasa Teratas](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_KAMU&layout=compact&theme=radical)
+![Bahasa Teratas](https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb&layout=compact&theme=radical)
 
 ## Koneksi
 - [LinkedIn](https://linkedin.com/in/USERNAME)
