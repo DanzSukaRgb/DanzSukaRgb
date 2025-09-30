@@ -1,14 +1,19 @@
-## Hi there 👋
+# Halo, saya Danu 👋
 
-**DanzSukaRgb/DanzSukaRgb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Tentang Saya
+- 💻 Programmer yang suka eksplor teknologi.
+- 🚀 Fokus ke [tulis fokus utama: Web, Mobile, AI, dsb].
+- 📚 Selalu belajar hal baru.
 
-Here are some ideas to get you started:
+## Statistik GitHub
+![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=radical)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+## Bahasa Teratas
+![Bahasa Teratas](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_KAMU&layout=compact&theme=radical)
+
+## Koneksi
+- [LinkedIn](https://linkedin.com/in/USERNAME)
+- [Portfolio](https://USERNAME.github.io)
+
+---
+*"Kode yang baik adalah kode yang mudah dipahami, bukan hanya yang berjalan."*
