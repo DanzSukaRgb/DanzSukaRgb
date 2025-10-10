@@ -2,7 +2,7 @@
 
 ## Tentang Saya
 - 💻 Programmer yang suka eksplor teknologi.
-- 🚀 Fokus ke [tulis fokus utama: Web, Mobile, AI, dsb].
+- 🚀 Fokus ke Web, Mobile.
 - 📚 Selalu belajar hal baru.
 
 ## Statistik GitHub
