@@ -1,17 +1,47 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=F7DF1E&center=true&vCenter=true&width=550&lines=Halo%2C+saya+Danu+%F0%9F%91%8B;Seorang+Programmer+Web+%26+Mobile;Selamat+datang+di+profil+GitHub+saya!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=F7DF1E&center=true&vCenter=true&width=550&lines=Halo%2C+saya+Danu+%F0%9F%91%8B;Seorang+Web+Developer;Fokus+pada+Backend+%26+Frontend;Selamat+datang+di+profil+GitHub+saya!" alt="Typing SVG" />
 </p>
 <p align="center">
-Saya seorang developer yang antusias dalam eksplorasi teknologi baru, dengan fokus utama pada pengembangan Web dan Mobile.
+Saya seorang Web Developer yang antusias dalam eksplorasi teknologi baru, dengan fokus utama pada pengembangan aplikasi Web.
 </p>
 
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 👨‍💻 Tentang Saya
 
-* 🚀 Saya suka mengubah ide menjadi aplikasi yang fungsional dan bermanfaat.
-* 💻 Fokus utama saya adalah membangun aplikasi web modern dan aplikasi mobile lintas platform.
+* 🚀 Saya suka mengubah ide menjadi aplikasi web yang fungsional dan bermanfaat.
+* 💻 Fokus utama saya adalah membangun aplikasi web modern yang interaktif dan *scalable*.
 * 📚 Saya percaya bahwa belajar adalah proses seumur hidup, terutama di dunia teknologi.
 
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
+### 🌟 Proyek Unggulan
+
+Berikut adalah beberapa proyek yang telah saya kerjakan. (Jangan lupa *pin* proyek-proyek ini di profilmu!)
+
+<p>
+  <details>
+    <summary><strong>Proyek 1: [Nama Proyek Kamu, misal: Aplikasi E-Commerce]</strong></summary>
+    <br/>
+    <p>
+      Deskripsi singkat proyek ini. Jelaskan apa tujuannya dan masalah apa yang dipecahkannya.
+      <br/><br/>
+      <strong>Teknologi:</strong> `Laravel`, `Livewire`, `Tailwind CSS`, `MySQL`
+      <br/>
+      <a href="https://github.com/DanzSukaRgb/NAMA_REPO_PROYEK_INI" target="_blank">[Lihat Repositori]</a> | <a href="https://LINK_KE_DEMO_LIVE_JIKA_ADA" target="_blank">[Lihat Live Demo]</a>
+    </p>
+  </details>
+
+  <details>
+    <summary><strong>Proyek 2: [Nama Proyek Kamu, misal: Blog dengan Next.js]</strong></summary>
+    <br/>
+    <p>
+      Deskripsi singkat proyek ini. Jelaskan apa tujuannya dan masalah apa yang dipecahkannya.
+      <br/><br/>
+      <strong>Teknologi:</strong> `Next.js`, `React`, `Express.js`, `PostgreSQL`
+      <br/>
+      <a href="https://github.com/DanzSukaRgb/NAMA_REPO_PROYEK_INI" target="_blank">[Lihat Repositori]</a> | <a href="https://LINK_KE_DEMO_LIVE_JIKA_ADA" target="_blank">[Lihat Live Demo]</a>
+    </p>
+  </details>
+</p>
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 🔧 Teknologi & Alat
 
@@ -34,10 +64,6 @@ Ini adalah beberapa teknologi dan alat yang saya kuasai:
     <a href="https://nodejs.org/en/" target="_blank"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/> </a>
     <a href="https://expressjs.com/" target="_blank"> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/> </a>
     <br/>
-    <strong>Mobile:</strong><br/>
-    <a href="https://flutter.dev/" target="_blank"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/> </a>
-    <a href="https://dart.dev/" target="_blank"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/> </a>
-    <br/>
     <strong>Database:</strong><br/>
     <a href="https://www.mysql.com/" target="_blank"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> </a>
     <a href="https://www.postgresql.org/" target="_blank"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> </a>
@@ -58,6 +84,12 @@ Saat ini saya sedang fokus mendalami:
 * **Laravel** (untuk memperkuat fundamental backend)
 * **Livewire** (untuk membangun UI yang dinamis dengan cepat)
 
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
+### 🏆 Trofi GitHub Saya
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DanzSukaRgb&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</p>
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 📊 Statistik GitHub Saya
 
