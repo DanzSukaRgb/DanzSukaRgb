@@ -1,19 +1,18 @@
-# Halo, saya Danu 👋
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=F7DF1E&center=true&vCenter=true&width=550&lines=Halo%2C+saya+Danu+%F0%9F%91%8B;Seorang+Programmer+Web+%26+Mobile;Selamat+datang+di+profil+GitHub+saya!" alt="Typing SVG" />
+</p>
+<p align="center">
+Saya seorang developer yang antusias dalam eksplorasi teknologi baru, dengan fokus utama pada pengembangan Web dan Mobile.
+</p>
 
-### Seorang Programmer Web & Mobile
-
-Selamat datang di profil GitHub saya! Saya seorang developer yang antusias dalam eksplorasi teknologi baru, dengan fokus utama pada pengembangan Web dan Mobile.
-
----
-
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 👨‍💻 Tentang Saya
 
 * 🚀 Saya suka mengubah ide menjadi aplikasi yang fungsional dan bermanfaat.
 * 💻 Fokus utama saya adalah membangun aplikasi web modern dan aplikasi mobile lintas platform.
 * 📚 Saya percaya bahwa belajar adalah proses seumur hidup, terutama di dunia teknologi.
 
----
-
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 🔧 Teknologi & Alat
 
 Ini adalah beberapa teknologi dan alat yang saya kuasai:
@@ -52,16 +51,14 @@ Ini adalah beberapa teknologi dan alat yang saya kuasai:
     <a href="https://www.npmjs.com/" target="_blank"> <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"/> </a>
 </p>
 
----
-
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 🌱 Saat ini sedang belajar...
 
 Saat ini saya sedang fokus mendalami:
 * **Laravel** (untuk memperkuat fundamental backend)
 * **Livewire** (untuk membangun UI yang dinamis dengan cepat)
 
----
-
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 📊 Statistik GitHub Saya
 
 <p align="center">
@@ -74,8 +71,7 @@ Saat ini saya sedang fokus mendalami:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanzSukaRgb&theme=radical&hide_border=true" alt="GitHub Streak Danu" />
 </p>
 
----
-
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 📬 Mari Terhubung
 
 Jangan ragu untuk terhubung atau melihat proyek saya yang lain!
@@ -83,6 +79,7 @@ Jangan ragu untuk terhubung atau melihat proyek saya yang lain!
 * **LinkedIn**: -
 * **Portfolio**: -
 
----
-
-> *"Kode yang baik adalah kode yang mudah dipahami, bukan hanya yang berjalan."*
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
+<p align="center">
+  <i>"Kode yang baik adalah kode yang mudah dipahami, bukan hanya yang berjalan."</i>
+</p>
