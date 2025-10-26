@@ -85,12 +85,12 @@ Saat ini saya sedang fokus mendalami:
 * **Livewire** (untuk membangun UI yang dinamis dengan cepat)
 
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
-
 ### 🏆 Trofi GitHub Saya
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DanzSukaRgb&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
+<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 📊 Statistik GitHub Saya
 
 <p align="center">
