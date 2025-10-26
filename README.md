@@ -64,6 +64,10 @@ Saat ini saya sedang fokus mendalami:
   <img src="https://github-readme-stats.vercel.app/api?username=DanzSukaRgb&show_icons=true&theme=radical" alt="Statistik GitHub Danu" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb&layout=compact&theme=radical" alt="Bahasa Teratas Danu" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanzSukaRgb&theme=radical&hide_border=true&area=true" alt="Grafik Aktivitas GitHub" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanzSukaRgb&theme=radical&hide_border=true" alt="GitHub Streak Danu" />
 </p>
 
 ---
