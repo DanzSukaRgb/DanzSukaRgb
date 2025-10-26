@@ -29,20 +29,6 @@ Berikut adalah beberapa proyek yang telah saya kerjakan. (Jangan lupa *pin* proy
       <a href="https://github.com/DanzSukaRgb/NAMA_REPO_PROYEK_INI" target="_blank">[Lihat Repositori]</a> | <a href="https://LINK_KE_DEMO_LIVE_JIKA_ADA" target="_blank">[Lihat Live Demo]</a>
     </p>
   </details>
-
-  <details>
-    <summary><strong>Proyek 2: [Nama Proyek Kamu, misal: Blog dengan Next.js]</strong></summary>
-    <br/>
-    <p>
-      Deskripsi singkat proyek ini. Jelaskan apa tujuannya dan masalah apa yang dipecahkannya.
-      <br/><br/>
-      <strong>Teknologi:</strong> `Next.js`, `React`, `Express.js`, `PostgreSQL`
-      <br/>
-      <a href="https://github.com/DanzSukaRgb/NAMA_REPO_PROYEK_INI" target="_blank">[Lihat Repositori]</a> | <a href="https://LINK_KE_DEMO_LIVE_JIKA_ADA" target="_blank">[Lihat Live Demo]</a>
-    </p>
-  </details>
-</p>
-<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 🔧 Teknologi & Alat
 
 Ini adalah beberapa teknologi dan alat yang saya kuasai:
@@ -84,12 +70,6 @@ Saat ini saya sedang fokus mendalami:
 * **Laravel** (untuk memperkuat fundamental backend)
 * **Livewire** (untuk membangun UI yang dinamis dengan cepat)
 
-<img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
-### 🏆 Trofi GitHub Saya
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DanzSukaRgb&theme=radical&margin-w=15&margin-h=15&cache_buster=1" alt="GitHub Trophies" />
-</p>
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
 ### 📊 Statistik GitHub Saya
 
