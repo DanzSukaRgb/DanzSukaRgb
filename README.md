@@ -76,8 +76,8 @@ Saat ini saya sedang fokus mendalami:
 
 Jangan ragu untuk terhubung atau melihat proyek saya yang lain!
 
-* **LinkedIn**: [https://linkedin.com/in/USERNAME](https://linkedin.com/in/USERNAME)
-* **Portfolio**: [https://USERNAME.github.io](https://USERNAME.github.io)
+* **LinkedIn**: -
+* **Portfolio**: -
 
 ---
 
