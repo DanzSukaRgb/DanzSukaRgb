@@ -13,22 +13,6 @@ Saya seorang Web Developer yang antusias dalam eksplorasi teknologi baru, dengan
 * 📚 Saya percaya bahwa belajar adalah proses seumur hidup, terutama di dunia teknologi.
 
 <img src="https://raw.githubusercontent.com/i-am-R-J/i-am-R-J/main/assets/images/Color-bar.gif" alt="divider" width="100%" />
-### 🌟 Proyek Unggulan
-
-Berikut adalah beberapa proyek yang telah saya kerjakan. (Jangan lupa *pin* proyek-proyek ini di profilmu!)
-
-<p>
-  <details>
-    <summary><strong>Proyek 1: [Nama Proyek Kamu, misal: Aplikasi E-Commerce]</strong></summary>
-    <br/>
-    <p>
-      Deskripsi singkat proyek ini. Jelaskan apa tujuannya dan masalah apa yang dipecahkannya.
-      <br/><br/>
-      <strong>Teknologi:</strong> `Laravel`, `Livewire`, `Tailwind CSS`, `MySQL`
-      <br/>
-      <a href="https://github.com/DanzSukaRgb/NAMA_REPO_PROYEK_INI" target="_blank">[Lihat Repositori]</a> | <a href="https://LINK_KE_DEMO_LIVE_JIKA_ADA" target="_blank">[Lihat Live Demo]</a>
-    </p>
-  </details>
 ### 🔧 Teknologi & Alat
 
 Ini adalah beberapa teknologi dan alat yang saya kuasai:
