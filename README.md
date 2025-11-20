@@ -30,7 +30,6 @@ Ini adalah beberapa teknologi dan alat yang saya kuasai:
     <strong>Backend:</strong><br/>
     <a href="https://www.php.net/" target="_blank"> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/> </a>
     <a href="https://laravel.com/" target="_blank"> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/> </a>
-    <a href="https://laravel-livewire.com/" target="_blank"> <img src="https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white" alt="Livewire"/> </a>
     <a href="https://nodejs.org/en/" target="_blank"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/> </a>
     <a href="https://expressjs.com/" target="_blank"> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/> </a>
     <br/>
