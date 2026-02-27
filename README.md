@@ -117,12 +117,11 @@ Learning: Advanced System Design & Performance Optimization
 ![Snake animation](https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake.svg)
 
 ---
-
 ---
 
-## 🧊 Rubik Solver Mode: ON
+## 🧊 Interactive Rubik Cube
 
-![Rubik Cube](https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif)
+[![PLAY RUBIK](https://img.shields.io/badge/PLAY-Rubik%20Auto%20Solver-8A2BE2?style=for-the-badge)](https://danzsukargb.github.io/DanzSukaRgb/)
 
-> Turning complex problems into elegant solutions.
+> Auto Scramble & Auto Resolve • Interactive 3D Cube
 ![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,100:8A2BE2)
