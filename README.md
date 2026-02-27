@@ -139,4 +139,10 @@ Learning: Advanced System Design & Performance Optimization
   <i>"Good code is not just working — it's readable, scalable, and maintainable."</i>
 </p>
 
-![Snake animation](https://github.com/DanzSukaRgb/DanzSukaRgb/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
