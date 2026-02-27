@@ -121,7 +121,6 @@ Learning: Advanced System Design & Performance Optimization
 
 ## 🧊 Interactive Rubik Cube
 
-[![PLAY RUBIK](https://img.shields.io/badge/PLAY-Rubik%20Auto%20Solver-8A2BE2?style=for-the-badge)](https://danzsukargb.github.io/DanzSukaRgb/)
-
+[![Open Rubik](https://capsule-render.vercel.app/api?type=rect&text=PLAY%20RUBIK%203D&fontSize=30&color=0:8A2BE2,100:00F7FF)](https://danzsukargb.github.io/DanzSukaRgb/)
 > Auto Scramble & Auto Resolve • Interactive 3D Cube
 ![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,100:8A2BE2)
