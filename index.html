@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rubik Cube</title>
+    <style>
+      body { margin: 0; display: grid; place-items: center; height: 100vh; background:#0b0b14; }
+      .wrap { width: min(92vw, 520px); }
+      h1 { color: #fff; font-family: system-ui; font-size: 18px; text-align:center; opacity:.85; margin: 0 0 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <twisty-player
+        id="cube"
+        style="width: 100%; aspect-ratio: 1/1;"
+        puzzle="3x3x3"
+        background="none"
+        control-panel="none"
+        hint-facelets="none"
+      ></twisty-player>
+    </div>
+
+    <script type="module">
+      import "https://cdn.cubing.net/js/cubing/twisty";
+      import { randomScrambleForEvent } from "https://cdn.cubing.net/js/cubing/scramble";
+      import { Alg } from "https://cdn.cubing.net/js/cubing/alg";
+
+      const player = document.getElementById("cube");
+
+      // ====== SETTING ======
+      const EVENT = "333";           // 3x3 scramble WCA
+      const MS_PER_MOVE = 140;       // kecepatan animasi perkiraan
+      const PAUSE = 700;             // jeda antar fase
+      const LOOP_PAUSE = 900;        // jeda sebelum ulang
+      // =====================
+
+      const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+      const countMoves = (algStr) =>
+        algStr.trim().split(/\s+/).filter(Boolean).length;
+
+      async function playAlg(algStr) {
+        player.alg = algStr;
+        player.play();
+        const moves = Math.max(1, countMoves(algStr));
+        await sleep(moves * MS_PER_MOVE);
+      }
+
+      async function cycle() {
+        // generate scramble
+        const scramble = (await randomScrambleForEvent(EVENT)).toString();
+        // inverse scramble => balik solved (resolve)
+        const resolve = new Alg(scramble).invert().toString();
+
+        // scramble anim
+        await playAlg(scramble);
+        await sleep(PAUSE);
+
+        // resolve anim
+        await playAlg(resolve);
+        await sleep(PAUSE);
+      }
+
+      // auto-loop
+      (async function loopForever(){
+        while (true) {
+          await cycle();
+          await sleep(LOOP_PAUSE);
+        }
+      })();
+    </script>
+  </body>
+</html>
