@@ -1,11 +1,3 @@
-Siap. Ini **versi murni Markdown (.md)** tanpa HTML `<p align>`, `<picture>`, dll.
-Tetap premium, tapi clean dan aman buat GitHub.
-
-Tinggal copy–paste ke `README.md` profile repo kamu.
-
----
-
-````md
 <!-- ========================================================= -->
 <!--                      DANU GITHUB PROFILE                  -->
 <!-- ========================================================= -->
@@ -31,86 +23,80 @@ Role: Fullstack Web Developer
 Focus: Backend Architecture & Modern Frontend
 Core Stack: Laravel • React • Node.js
 Learning: Advanced System Design & Performance Optimization
-````
+```
 
-* 🚀 Passionate about turning ideas into real-world applications
-* 💡 Strong focus on scalable backend systems
-* ⚡ Love building interactive & modern UI
-* 📚 Lifelong learner in technology
+- 🚀 Passionate about turning ideas into real-world applications  
+- 💡 Strong focus on scalable backend systems  
+- ⚡ Love building interactive & modern UI  
+- 📚 Lifelong learner in technology  
 
 ---
 
 ## 🧩 Currently Building
 
-* 🚀 Scalable & secure APIs with Laravel
-* ⚡ Interactive dashboards with React
-* 🧠 Deepening System Design & Architecture
-* 🔥 Performance optimization for production apps
+- 🚀 Scalable & secure APIs with Laravel  
+- ⚡ Interactive dashboards with React  
+- 🧠 Deepening System Design & Architecture  
+- 🔥 Performance optimization for production apps  
 
 ---
 
 ## 🔥 Current Focus
 
-* 🧱 Advanced Laravel Architecture
-* ⚡ API Optimization & Performance
-* 🧠 Clean Code & Design Patterns
-* 🚀 Production-ready Application Development
+- 🧱 Advanced Laravel Architecture  
+- ⚡ API Optimization & Performance  
+- 🧠 Clean Code & Design Patterns  
+- 🚀 Production-ready Application Development  
 
 ---
 
 ## 🛠 Complete Tech Stack
 
 ### 💻 Frontend
-
 ![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,bootstrap,tailwind,sass,react,nextjs,vue,nuxt,angular,redux,vite,webpack)
 
 ### ⚙️ Backend
-
 ![Backend](https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,nestjs,python,django,flask,java,spring,go)
 
 ### 🗄 Database
-
 ![Database](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,supabase,sqlite)
 
 ### ☁️ Cloud & DevOps
-
 ![DevOps](https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,nginx,linux,githubactions,gitlab,vercel,netlify)
 
 ### 📱 Mobile Development
-
 ![Mobile](https://skillicons.dev/icons?i=flutter,react,androidstudio,kotlin,swift)
 
 ### 🧪 Testing & Tools
-
 ![Tools](https://skillicons.dev/icons?i=jest,vitest,phpunit,selenium,postman,git,github,figma,vscode,idea,notion)
 
 ---
 
 ## 📊 GitHub Analytics
 
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanzSukaRgb\&theme=radical)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanzSukaRgb&theme=radical)
 
-![Stats](https://github-readme-stats.vercel.app/api?username=DanzSukaRgb\&show_icons=true\&theme=radical\&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanzSukaRgb&show_icons=true&theme=radical&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb\&layout=compact\&theme=radical\&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb&layout=compact&theme=radical&hide_border=true)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=DanzSukaRgb\&theme=radical\&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DanzSukaRgb&theme=radical&hide_border=true)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DanzSukaRgb\&theme=radical\&hide_border=true\&area=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DanzSukaRgb&theme=radical&hide_border=true&area=true)
 
 ---
 
 ## 🏆 Achievements
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=DanzSukaRgb\&theme=radical\&no-frame=true\&no-bg=true\&margin-w=8)
+![Trophy](https://github-profile-trophy.vercel.app/?username=DanzSukaRgb&theme=radical&no-frame=true&no-bg=true&margin-w=8)
 
 ---
 
 ## 🚀 Featured Projects
 
-![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb\&repo=travel\&theme=radical)
+![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=YOUR-REPO-1&theme=radical)
 
-![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb\&repo=YOUR-REPO-2\&theme=radical)
+![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=YOUR-REPO-2&theme=radical)
 
 ---
 
@@ -132,9 +118,4 @@ Learning: Advanced System Design & Performance Optimization
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving\&height=120\&section=footer\&color=0:00F7FF,100:8A2BE2)
-
-```
-
-Kalau kamu mau versi yang **lebih minimalis & senior style (lebih clean, nggak terlalu ramai icon)** aku bisa buatkan juga.
-```
+![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,100:8A2BE2)
