@@ -99,13 +99,6 @@ Learning: Advanced System Design & Performance Optimization
 ![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=YOUR-REPO-2&theme=radical)
 
 ---
----
-
-## 🧊 Algorithmic Rubik Solver
-
-![Rubik Cube Animation](https://raw.githubusercontent.com/rodrigorgtic/rubik-cube-animation/master/rubik-cube.svg)
-
-> Clean code is like a solved Rubik's Cube — structured, efficient, and elegant.
 
 ## 🤝 Let's Connect
 
@@ -125,4 +118,11 @@ Learning: Advanced System Design & Performance Optimization
 
 ---
 
+---
+
+## 🧊 Rubik Solver Mode: ON
+
+![Rubik Cube](https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif)
+
+> Turning complex problems into elegant solutions.
 ![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,100:8A2BE2)
