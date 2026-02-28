@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="id">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="wrap">
+      <h1>Scramble → Resolve (Loop)</h1>
       <twisty-player
         id="cube"
         style="width: 100%; aspect-ratio: 1/1;"
@@ -30,41 +31,64 @@
       const player = document.getElementById("cube");
 
       // ====== SETTING ======
-      const EVENT = "333";           // 3x3 scramble WCA
-      const MS_PER_MOVE = 140;       // kecepatan animasi perkiraan
-      const PAUSE = 700;             // jeda antar fase
-      const LOOP_PAUSE = 900;        // jeda sebelum ulang
+      const EVENT = "333";
+      const PAUSE = 700;
+      const LOOP_PAUSE = 900;
       // =====================
 
       const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-      const countMoves = (algStr) =>
-        algStr.trim().split(/\s+/).filter(Boolean).length;
+      // tunggu animasi selesai (lebih akurat daripada hitung moves)
+      function waitUntilFinished(tp) {
+        return new Promise((resolve) => {
+          const onStatus = () => {
+            // beberapa versi expose status berbeda; yang penting: selesai main.
+            // kita cek beberapa kemungkinan biar lebih tahan beda versi.
+            const st = tp?.viewer?.timeRange; // kadang ada, kadang nggak
+            const isPlaying = tp?.playing ?? tp?.viewer?.playing;
+            if (isPlaying === false || isPlaying === undefined) {
+              // fallback: kalau properti playing gak ada, kita resolve setelah event dipanggil sekali
+              // tapi tetap aman karena playAlg selalu diikuti PAUSE
+              cleanup();
+              resolve();
+            } else if (!isPlaying) {
+              cleanup();
+              resolve();
+            }
+          };
+
+          const cleanup = () => {
+            tp.removeEventListener("playbackstatus", onStatus);
+            tp.removeEventListener("playbackStatus", onStatus);
+          };
+
+          // twisty-player pernah pakai nama event yang beda casing.
+          tp.addEventListener("playbackstatus", onStatus);
+          tp.addEventListener("playbackStatus", onStatus);
+
+          // jaga-jaga kalau event gak pernah keluar: timeout lunak
+          setTimeout(() => { cleanup(); resolve(); }, 8000);
+        });
+      }
 
       async function playAlg(algStr) {
         player.alg = algStr;
         player.play();
-        const moves = Math.max(1, countMoves(algStr));
-        await sleep(moves * MS_PER_MOVE);
+        await waitUntilFinished(player);
       }
 
       async function cycle() {
-        // generate scramble
         const scramble = (await randomScrambleForEvent(EVENT)).toString();
-        // inverse scramble => balik solved (resolve)
         const resolve = new Alg(scramble).invert().toString();
 
-        // scramble anim
         await playAlg(scramble);
         await sleep(PAUSE);
 
-        // resolve anim
         await playAlg(resolve);
         await sleep(PAUSE);
       }
 
-      // auto-loop
-      (async function loopForever(){
+      (async function loopForever() {
         while (true) {
           await cycle();
           await sleep(LOOP_PAUSE);
