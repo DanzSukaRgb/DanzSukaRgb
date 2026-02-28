@@ -1,99 +1,109 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Rubik Cube</title>
-    <style>
-      body { margin: 0; display: grid; place-items: center; height: 100vh; background:#0b0b14; }
-      .wrap { width: min(92vw, 520px); }
-      h1 { color: #fff; font-family: system-ui; font-size: 18px; text-align:center; opacity:.85; margin: 0 0 12px; }
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
-      <h1>Scramble → Resolve (Loop)</h1>
-      <twisty-player
-        id="cube"
-        style="width: 100%; aspect-ratio: 1/1;"
-        puzzle="3x3x3"
-        background="none"
-        control-panel="none"
-        hint-facelets="none"
-      ></twisty-player>
-    </div>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rubik Smooth Loop</title>
 
-    <script type="module">
-      import "https://cdn.cubing.net/js/cubing/twisty";
-      import { randomScrambleForEvent } from "https://cdn.cubing.net/js/cubing/scramble";
-      import { Alg } from "https://cdn.cubing.net/js/cubing/alg";
+<style>
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #0b0b14;
+}
+.wrap { width: min(92vw, 520px); }
+h1 {
+  color: #fff;
+  font-family: system-ui;
+  font-size: 18px;
+  text-align:center;
+  opacity:.85;
+  margin: 0 0 14px;
+}
+</style>
+</head>
 
-      const player = document.getElementById("cube");
+<body>
+<div class="wrap">
+  <h1>Perbaiki ↔ Rusak (Smooth Loop)</h1>
 
-      // ====== SETTING ======
-      const EVENT = "333";
-      const PAUSE = 700;
-      const LOOP_PAUSE = 900;
-      // =====================
+  <twisty-player
+    id="cube"
+    style="width:100%; aspect-ratio:1/1;"
+    puzzle="3x3x3"
+    background="none"
+    control-panel="none"
+    hint-facelets="none"
+    tempo-scale="0.8"
+  ></twisty-player>
+</div>
 
-      const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+<script type="module">
+import "https://cdn.cubing.net/js/cubing/twisty";
+import { Alg } from "https://cdn.cubing.net/js/cubing/alg";
 
-      // tunggu animasi selesai (lebih akurat daripada hitung moves)
-      function waitUntilFinished(tp) {
-        return new Promise((resolve) => {
-          const onStatus = () => {
-            // beberapa versi expose status berbeda; yang penting: selesai main.
-            // kita cek beberapa kemungkinan biar lebih tahan beda versi.
-            const st = tp?.viewer?.timeRange; // kadang ada, kadang nggak
-            const isPlaying = tp?.playing ?? tp?.viewer?.playing;
-            if (isPlaying === false || isPlaying === undefined) {
-              // fallback: kalau properti playing gak ada, kita resolve setelah event dipanggil sekali
-              // tapi tetap aman karena playAlg selalu diikuti PAUSE
-              cleanup();
-              resolve();
-            } else if (!isPlaying) {
-              cleanup();
-              resolve();
-            }
-          };
+const player = document.getElementById("cube");
 
-          const cleanup = () => {
-            tp.removeEventListener("playbackstatus", onStatus);
-            tp.removeEventListener("playbackStatus", onStatus);
-          };
+const PAUSE = 600;
+const MOVE_COUNT = 22; // seberapa rusak
 
-          // twisty-player pernah pakai nama event yang beda casing.
-          tp.addEventListener("playbackstatus", onStatus);
-          tp.addEventListener("playbackStatus", onStatus);
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-          // jaga-jaga kalau event gak pernah keluar: timeout lunak
-          setTimeout(() => { cleanup(); resolve(); }, 8000);
-        });
+function randomMoves(n) {
+  const faces = ["R","L","U","D","F","B"];
+  const suf = ["", "'", "2"];
+  let out = [];
+  let prev = "";
+
+  for (let i = 0; i < n; i++) {
+    let f = faces[(Math.random()*faces.length)|0];
+    if (f === prev) { i--; continue; }
+    prev = f;
+    out.push(f + suf[(Math.random()*suf.length)|0]);
+  }
+  return out.join(" ");
+}
+
+function waitFinish() {
+  return new Promise(resolve => {
+    const check = setInterval(() => {
+      if (!player.playing) {
+        clearInterval(check);
+        resolve();
       }
+    }, 50);
+  });
+}
 
-      async function playAlg(algStr) {
-        player.alg = algStr;
-        player.play();
-        await waitUntilFinished(player);
-      }
+async function playAlg(alg) {
+  player.alg = alg;
+  player.play();
+  await waitFinish();
+}
 
-      async function cycle() {
-        const scramble = (await randomScrambleForEvent(EVENT)).toString();
-        const resolve = new Alg(scramble).invert().toString();
+async function loop() {
+  let lastRusak = null;
 
-        await playAlg(scramble);
-        await sleep(PAUSE);
+  while (true) {
 
-        await playAlg(resolve);
-        await sleep(PAUSE);
-      }
+    // ===== PERBAIKI =====
+    if (lastRusak) {
+      const perbaiki = new Alg(lastRusak).invert().toString();
+      await playAlg(perbaiki);
+      await sleep(PAUSE);
+    }
 
-      (async function loopForever() {
-        while (true) {
-          await cycle();
-          await sleep(LOOP_PAUSE);
-        }
-      })();
-    </script>
-  </body>
+    // ===== RUSAK =====
+    const rusak = randomMoves(MOVE_COUNT);
+    lastRusak = rusak;
+    await playAlg(rusak);
+    await sleep(PAUSE);
+  }
+}
+
+loop();
+</script>
+</body>
 </html>
