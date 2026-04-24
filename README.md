@@ -1,126 +1,57 @@
-<!-- ========================================================= -->
-<!--                      DANU GITHUB PROFILE                  -->
-<!-- ========================================================= -->
+<div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=venom&height=220&text=DANU%20FULLSTACK%20DEV&fontSize=42&color=0:00F7FF,100:8A2BE2&stroke=00F7FF&animation=fadeIn)
+# M. Afdanu Aprilian Saputra
+**Fullstack Developer • Software Engineering**
 
-# Hi 👋, I'm Danu
-### 🚀 Fullstack Web Developer | Building Modern & Scalable Web Applications
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Laravel+%7C+React+%7C+Tailwind+4;Mobile+Dev+with+Flutter;Arch+Linux+%26+CachyOS;Building+Scalable+Systems)](https://git.io/typing-svg)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Fullstack+Web+Developer;Laravel+%7C+React+%7C+Node.js;Clean+Code+%7C+Scalable+Architecture;Backend+%26+Frontend+Specialist;Always+Learning+New+Technology)
-
-![Profile Views](https://komarev.com/ghpvc/?username=DanzSukaRgb&label=Profile%20Views&color=00F7FF&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/DanzSukaRgb?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/DanzSukaRgb?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
+</div>
 
 ---
 
-## 🧠 About Me
+### 🚀 Overview
+Fullstack Developer yang berfokus pada **clean code** dan **production-ready software**. Menangani alur pengembangan dari *local* hingga *deployment*.
 
-```yaml
-Name: Danu
-Role: Fullstack Web Developer
-Focus: Backend Architecture & Modern Frontend
-Core Stack: Laravel • React • Node.js
-Learning: Advanced System Design & Performance Optimization
-```
-
-- 🚀 Passionate about turning ideas into real-world applications  
-- 💡 Strong focus on scalable backend systems  
-- ⚡ Love building interactive & modern UI  
-- 📚 Lifelong learner in technology  
+* **⚙️ Code Architect:** Standarisasi struktur kode untuk efisiensi pengembangan.
+* **🐧 System Power-user:** Optimasi **Arch Linux & CachyOS** untuk produktivitas maksimal.
+* **🎯 Current Focus:** Scalable Backend & Modern Mobile UI/UX.
 
 ---
 
-## 🧩 Currently Building
-
-- 🚀 Scalable & secure APIs with Laravel  
-- ⚡ Interactive dashboards with React  
-- 🧠 Deepening System Design & Architecture  
-- 🔥 Performance optimization for production apps  
+### 💻 Tech Stack
+**Logic:** Laravel, React, Tailwind 4, Flutter, Node.js  
+**Infrastructure:** MySQL, Redis, Docker, Git/Gitea, AWS  
+**Tools:** Neovim, Postman, Figma, Linux Terminal
 
 ---
 
-## 🔥 Current Focus
+### 📊 Statistics
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=DanzSukaRgb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
 
-- 🧱 Advanced Laravel Architecture  
-- ⚡ API Optimization & Performance  
-- 🧠 Clean Code & Design Patterns  
-- 🚀 Production-ready Application Development  
+<br/>
 
----
-
-## 🛠 Complete Tech Stack
-
-### 💻 Frontend
-![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,bootstrap,tailwind,sass,react,nextjs,vue,nuxt,angular,redux,vite,webpack)
-
-### ⚙️ Backend
-![Backend](https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,nestjs,python,django,flask,java,spring,go)
-
-### 🗄 Database
-![Database](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,supabase,sqlite)
-
-### ☁️ Cloud & DevOps
-![DevOps](https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,nginx,linux,githubactions,gitlab,vercel,netlify)
-
-### 📱 Mobile Development
-![Mobile](https://skillicons.dev/icons?i=flutter,react,androidstudio,kotlin,swift)
-
-### 🧪 Testing & Tools
-![Tools](https://skillicons.dev/icons?i=jest,vitest,phpunit,selenium,postman,git,github,figma,vscode,idea,notion)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DanzSukaRgb&theme=tokyo-night&hide_border=true&area=true&area_color=6366F1" width="90%"/>
+</div>
 
 ---
 
-## 📊 GitHub Analytics
+### 🏆 Featured Projects
+<div align="center">
 
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanzSukaRgb&theme=radical)
+[![LibroModern](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=LibroModern&theme=tokyonight)](https://github.com/DanzSukaRgb/LibroModern)
+[![Presensi](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=Presensi&theme=tokyonight)](https://github.com/DanzSukaRgb/Presensi)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanzSukaRgb&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DanzSukaRgb&layout=compact&theme=radical&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DanzSukaRgb&theme=radical&hide_border=true)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DanzSukaRgb&theme=radical&hide_border=true&area=true)
+</div>
 
 ---
 
-## 🏆 Achievements
+<div align="center">
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=DanzSukaRgb&theme=radical&no-frame=true&no-bg=true&margin-w=8)
+![Snake](https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake.svg)
 
----
+<br/>
 
-## 🚀 Featured Projects
-
-![Website Presensi Kelas CMS](https://github.com/DanzSukaRgb/Presensi)
-
-![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=YOUR-REPO-2&theme=radical)
-
----
-
-## 🤝 Let's Connect
-
-[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/DanzSukaRgb)
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](#)
-[![Twitter](https://skillicons.dev/icons?i=twitter)](#)
-
----
-
-> *"Good code is not just working — it's readable, scalable, and maintainable."*
-
----
-
-## 🐍 Contribution Snake (Last Year)
-
-![Snake animation](https://raw.githubusercontent.com/DanzSukaRgb/DanzSukaRgb/output/github-contribution-grid-snake.svg)
-
----
----
-
-## 🧊 Interactive Rubik Cube
-
-[![Open Rubik](https://capsule-render.vercel.app/api?type=rect&text=PLAY%20RUBIK%203D&fontSize=30&color=0:8A2BE2,100:00F7FF)](https://danzsukargb.github.io/DanzSukaRgb/)
-> Auto Scramble & Auto Resolve • Interactive 3D Cube
-![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F7FF,100:8A2BE2)
+<sub>*"Talk is cheap. Show me the code."*</sub>
+</div>
