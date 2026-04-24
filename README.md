@@ -3,7 +3,7 @@
 # M. Afdanu Aprilian Saputra
 **Fullstack Developer • Software Engineering**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Laravel+%7C+React+%7C+Tailwind+4;Mobile+Dev+with+Flutter;Arch+Linux+%26+CachyOS;Building+Scalable+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Laravel+%7C+React+%7C+Tailwind+4;Mobile+Dev+with+Flutter;Building+Scalable+Systems)](https://git.io/typing-svg)
 
 </div>
 
