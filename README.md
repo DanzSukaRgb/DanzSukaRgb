@@ -41,7 +41,7 @@ Fullstack Developer yang berfokus pada **clean code** dan **production-ready sof
 <div align="center">
 
 [![Presensi](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=Presensi&theme=tokyonight)](https://github.com/danu-dev/Presensi)
-[![LMS](https://github-readme-stats.vercel.app/api/pin/?username=DanzSukaRgb&repo=Presensi&theme=tokyonight)](https://github.com/bayu841/zonacoding.git)
+[![LMS](https://github-readme-stats.vercel.app/api/pin/?username=danu-dev&repo=zonacoding&theme=tokyonight)](https://github.com/bayu841/zonacoding.git)
 
 </div>
 
