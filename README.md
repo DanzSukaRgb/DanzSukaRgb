@@ -104,7 +104,7 @@ Hi! I'm **Danu** — a developer focused on mobile development with **Flutter** 
 <br/>
 
 <!--START_SECTION:quote-->
-<sub>*"Talk is cheap. Show me the code." — Linus Torvalds*</sub>
+<sub>*"Simplicity is prerequisite for reliability." — Edsger W. Dijkstra*</sub>
 <!--END_SECTION:quote-->
 
 </div>
